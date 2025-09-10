@@ -1,68 +1,53 @@
-#  Recruitment Insights – SQL & Power BI Dashboard
+# Recruitment Insights – SQL & Power BI Dashboard
 
-##  Description
-End-to-end recruitment analytics using **SQL** for data manipulation and **Power BI** for interactive visualization.  
-This project explores hiring trends, applicant funnels, and workforce demographics to inform data-driven talent strategies.
-
----
-
-##  Project Overview
-This analysis aims to uncover key recruitment patterns—from application to hire—using SQL queries and Power BI dashboarding.  
-It examines metrics such as applicant volume, hiring conversion rates, and demographic distributions to guide efficient recruitment decision-making.
+This project provides end-to-end recruitment analytics using **SQL** for data preparation and **Power BI** for interactive visualization.  
+The goal is to uncover applicant demographics, job role trends, and best-match insights to support data-driven hiring strategies.
 
 ---
 
-##  Tools & Skills Used
-- **SQL** – data extraction, cleaning, aggregation, funnel metrics  
-- **Power BI** – data modeling, interactive visualizations, dashboards  
-- **Recruitment Analytics Concepts** – funnel tracking, demographic analysis, hiring metrics
+🔎 **Project Overview**
+
+The project workflow includes:
+- Designing a recruitment database in SQL.  
+- Cleaning and preparing data with SQL queries.  
+- Aggregating metrics such as applicant demographics, job roles, and match rates.  
+- Building an interactive Power BI dashboard to make insights accessible for business use.
 
 ---
 
-##  Key Steps
-
-### 1. Data Preparation (SQL)
-- Loaded raw recruitment datasets into a SQL platform (e.g., PostgreSQL or MS SQL Server).  
-- Cleaned and standardized data formats (dates, missing values).  
-- Wrote queries to compute recruitment funnel metrics:  
-  - Total applicants  
-  - Candidate shortlists  
-  - Interviews conducted  
-  - Offers made  
-  - Hires finalized
-
-### 2. Metric Computation & Aggregation
-- Calculated conversion rates at each stage of the funnel.
-- Analyzed time-to-hire, candidate sourcing channels, and department-level performance.
-- Generated summary tables for demographic insights (e.g., gender, department, geographic distribution).
-
-### 3. Power BI Visualization
-In Power BI, created an interactive dashboard featuring:
-- **Funnel Chart** – visualize drop-offs between recruitment stages.
-- **Hiring Metrics Cards** – display KPIs like total applicants, hire rate, average time-to-hire.
-- **Demographic Breakdown** – interactive visuals for gender, department, location.
-- **Trend Analysis** – line or bar charts showing hiring volume and conversion trends over time.
-- **Slicer Filters** – enable dynamic filtering by time period, department, or candidate source.
+🛠️ **Tools & Skills Used**
+- **SQL** – database design, indexing, data cleaning, aggregation  
+- **Power BI** – data modeling, KPIs, dashboards  
+- **Recruitment Analytics** – match rate analysis, demographic insights, role-based hiring patterns  
 
 ---
 
-##  Key Insights
-- **Funnel drop-off**: Largest candidate losses occur between initial application and shortlist stages.  
-- **Departmental variation**: Some departments demonstrate higher shortlist-to-interview conversion rates.  
-- **Time-to-hire**: Average hiring duration shows periodic spikes—highlighting process inefficiencies.  
-- **Demographics**: Certain locations or candidate groups are underrepresented, suggesting room for inclusivity improvements.
+📊 **Power BI Dashboard Features**
+- **KPI Cards** → Total Applicants, Matched vs Not Matched, Average Age  
+- **Donut Chart** → Distribution of Matched vs Not Matched applicants  
+- **Bar Chart** → Applicants by Job Role (Top 5)  
+- **Stacked Bar Chart** → Applicants by Age Group & Match Status  
+- **Line Chart** → Applications trend by age  
 
 ---
 
-##  Recommendations
-- **Streamline initial screening** to reduce candidate drop-off—automate resume pre-screening or offer clearer qualification criteria.  
-- **Focus hiring training** on departments with low conversion—equip hiring managers to conduct better interviews.  
-- **Monitor and optimize hiring timelines**, especially during peaks, to reduce delays and improve candidate experience.  
-- **Boost sourcing diversity** by expanding channels to reach underrepresented regions or candidate profiles.
+📌 **Key Insights**
+- Out of 547 applicants, 249 matched and 298 did not (~45.5% match rate).  
+- Younger applicants (20–30) show a slightly higher chance of matching compared to senior groups.  
+- Analyst roles (Business, Cybersecurity, Financial) are among the most applied-for and competitive.  
+- Average applicant age is ~40 years, with applications peaking in the 30–40 age range.  
 
 ---
 
-##  How to Run
-1. Clone the repository:  
+🎯 **Recommendations**
+- **Refine screening** to improve job–applicant alignment and raise match rates.  
+- **Strengthen early-career hiring programs** to leverage higher match success in younger candidates.  
+- **Prioritize critical roles** (Analyst positions) by enhancing targeted recruitment strategies.  
+- **Promote diversity** by balancing representation across age groups and genders.  
+
+---
+
+🚀 **How to Run**
+1. Clone the repository:
    ```bash
    git clone https://github.com/kpt2210/Recruitment-Insights-SQL-PowerBI.git
